@@ -12,6 +12,7 @@ import AddEntry from './components/addEntry';
 import Entries from './components/cards';
 import Pending from './components/pending'
 
+// routes of the application
 function App() {
   return (
     <UserState>
