@@ -52,7 +52,3 @@ RideShaw is a rickshaw-sharing application designed to simplify local commuting 
 5. Open a pull request describing the changes you’ve made.
 
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
