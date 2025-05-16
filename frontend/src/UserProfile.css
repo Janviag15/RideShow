@@ -1,0 +1,38 @@
+.profile-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Slightly reduce the width of the entries list column */
+    gap: 10px; /* Maintain a small gap between the profile card and entries list */
+    padding: 20px;
+    margin-left: 10px;
+    min-height: 100vh;
+    justify-content: center; /* Center both elements horizontally */
+    align-items: center; /* Center them vertically */
+}
+
+.profile-card {
+    background-color: #efefef;
+    border: none;
+    padding: 20px;
+    margin-left: 50px;
+    height: fit-content;
+    min-height: 70%;
+    max-width: 400px; /* Keep the original max-width of the profile card */
+    margin: 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image a perfect circle */
+    object-fit: cover; /* Ensures the image fits perfectly within the circle */
+    display: block;
+    overflow: hidden; /* Ensures the image doesn't overflow from its container */
+}
+
+
+.entries-list {
+
+    background-color: #fff;
+    margin: 0;
+    align-self: center; /* Vertically align the entries list */
+}
